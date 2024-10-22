@@ -3,7 +3,7 @@
   become: yes
   # A quienes se les va a operar
   #all, servidores dentro de un inventario o grupo
-  hosts: all
+  hosts: node1,node2
   tasks:
     - name: Ejecuta comando para actualizar paquetes
       ansible.builtin.dnf:
