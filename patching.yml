@@ -1,0 +1,9 @@
+---
+- name: Parcha un conjunto de servidores linux
+  # A quienes se les va a operar
+  #all, servidores dentro de un inventario o grupo
+  hosts: all
+  tasks:
+    - name: Dame un mensaje
+      ansible.builtin.debug:
+        msg: Un mensaje cualquiera
