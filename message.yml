@@ -1,5 +1,5 @@
 ---
-- name: Parcha un conjunto de servidores linux
+- name: Muestra un mensaje
   # A quienes se les va a operar
   #all, servidores dentro de un inventario o grupo
   hosts: all
