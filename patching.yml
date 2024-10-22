@@ -5,7 +5,7 @@
   #all, servidores dentro de un inventario o grupo
   hosts: all
   tasks:
-    - name: Upgrade all packages
+    - name: Ejecuta comando para actualizar paquetes
       ansible.builtin.dnf:
         name: "*"
         state: latest
