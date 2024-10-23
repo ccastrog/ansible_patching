@@ -2,6 +2,7 @@
 - name: Muestra un mensaje
   # A quienes se les va a operar
   #all, servidores dentro de un inventario o grupo
+  # hosts: node1,node2
   hosts: all
   tasks:
     - name: Dame un mensaje
