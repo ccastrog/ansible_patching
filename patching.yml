@@ -1,5 +1,6 @@
 ---
 - name: Parcha un conjunto de servidores linux
+  #Ejecutar con privilegios elevados
   become: yes
   hosts: all
   tasks:
